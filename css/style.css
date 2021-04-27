@@ -147,4 +147,20 @@ body {
   	width: 25%;
   }
 
+  @media all and (min-width: 700px) { 
+  
+  body{
+    font-size: calc(var(--base-font-size) + var(--fluid-typography-ratio) * 1vw);
+  }
+
+}
+
+@media all and (min-width: 1800px) {
+
+  body{
+    font-size: calc(var(--base-font-size) + var(--fluid-typography-ratio) * 18px);
+  }
+
+}
+
 }
